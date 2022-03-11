@@ -1,0 +1,36 @@
+/* Section one styling */
+.image-style{
+    height: auto;
+    max-width: 100%;
+}
+
+.first-heading{
+    color: white;
+    text-align: center;
+}
+
+    /* Center the items with image acting as background */
+    .centered{
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+/* About us section */
+
+.about_title{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about_desc{
+    size: 14px;
+    text-align: center;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
