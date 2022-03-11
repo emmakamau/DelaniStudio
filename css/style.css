@@ -53,3 +53,26 @@
     margin-bottom: 2rem;
     font-weight: 100;
 }
+
+
+/* Services section */
+
+.services{
+    padding: 0 6vw;
+}
+
+.service-title{
+    text-align: center;
+    padding: 2vw;
+}
+
+.service-desc{
+    text-align: center;
+}
+
+.service-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
