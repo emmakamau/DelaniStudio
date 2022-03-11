@@ -14,6 +14,7 @@
     background-size: cover;
     height: 100vh;
     width: 100%;
+    position: relative;
 }
 
     /* Center the items with image acting as background */
@@ -92,4 +93,45 @@
 }
 
 
-    
+/* Contact US */
+
+.contact-us{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.contact-form{
+    padding: 4em 16vh;
+    background: transparent !important;
+}
+
+.contact-title{
+    text-align: center;
+    color: white;
+}
+
+.form-control{
+    background: transparent;
+    color: white;
+    margin-top: 2em;
+}
+
+::placeholder{
+    color: white !important;
+}
+
+
+/* Contact US */
+
+.socials{
+    padding:2em;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+}
