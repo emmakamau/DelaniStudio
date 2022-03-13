@@ -1,7 +1,16 @@
 /* Section one styling */
-.image-style{
-    height: auto;
-    max-width: 100%;
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vw;
+}
+
+.mouse-click{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25vw;
 }
 
 .first-heading{
@@ -17,13 +26,13 @@
     position: relative;
 }
 
-/* Center the items with image acting as background */
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    /* Center the items with image acting as background */
+    .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 /* About us section */
 
