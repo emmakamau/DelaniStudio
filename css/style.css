@@ -83,10 +83,10 @@
     margin-bottom: 1rem;
 }
 
-.tooltiptxt{
-    display:none;
+.tooltip{
+    background-color: white !important;
+    color: black !important;
 }
-
 
 /* Portfolio */
 
