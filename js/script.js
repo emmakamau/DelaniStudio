@@ -5,7 +5,7 @@ $(document).ready(function(){
         tooltipClass: "tooltip"
     })
 
-    //
+    //Selected form elements take the styling described in css classes
     $("input").focus(function(){
         $(this).addClass("form-control");
       });
@@ -42,3 +42,11 @@ $(document).ready(function(){
 
 
 //Javascript functions
+
+function msgSubmitted(){
+    firstName = document.getElementById('first-name').value
+    lastName = document.getElementById('last-name').value
+    message = document.getElementById('text-area').value
+    
+    alert(`Hello ${firstName}, thank you for reaching out to us. Your message has been received. Someone on the team will reach out to you soon.`)
+}

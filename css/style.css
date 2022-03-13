@@ -134,6 +134,12 @@
     color: white !important;
 }
 
+.btn-light{
+    width: 50%;
+    margin: 0 18vw;
+    text-align: center;
+}
+
 .contact-title{
     text-align: center;
     color: white;
