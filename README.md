@@ -29,7 +29,11 @@ About Us and services hightlights on talks a little a bit of who we are.
 
 Click on the Services icons to find a short description on Design, Development and Project Management. Click on the paragraphs to go back to the original state.
 
+Hover mouse on the Portfolio images to view project names.
 
+The contact section allows the user to send a message to the developers with an alert to ascertain message delivery.
+
+Finally, we are a social company. Click on the social media icons and get in touch with us.
 
 ## License
 
