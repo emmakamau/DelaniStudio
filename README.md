@@ -1,4 +1,4 @@
-# Akan Name Generator
+# Delani Studio
 This is a website aimed at connecting businesses with the ideal software developers. Services offered not only include design and development but product management as well. [Click to view](https://emmakamau.github.io/DelaniStudio/)
 
 ## Contributor
