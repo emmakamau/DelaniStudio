@@ -129,6 +129,11 @@
     background: transparent !important;
 }
 
+.form-control{
+    background: transparent !important;
+    color: white !important;
+}
+
 .contact-title{
     text-align: center;
     color: white;
