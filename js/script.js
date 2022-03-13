@@ -47,6 +47,10 @@ function msgSubmitted(){
     firstName = document.getElementById('first-name').value
     lastName = document.getElementById('last-name').value
     message = document.getElementById('text-area').value
-    
-    alert(`Hello ${firstName}, thank you for reaching out to us. Your message has been received. Someone on the team will reach out to you soon.`)
+
+    if(firstName==='' && lastName==='' && message===''){
+        alert("Form fields cannot be empty!")
+    }else{
+        alert(`Hello ${firstName}, thank you for reaching out to us. Your message has been received. Someone on the team will reach out to you soon.`)
+    }
 }
