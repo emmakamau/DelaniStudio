@@ -17,14 +17,14 @@
     position: relative;
 }
 
-    /* Center the items with image acting as background */
-    .centered{
-        position: absolute;
-        color: white;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+/* Center the items with image acting as background */
+.centered{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* About us section */
 
@@ -62,13 +62,18 @@
     padding: 0 6vw;
 }
 
-.service-title{
+.service-title-main{
     text-align: center;
     padding: 2vw;
 }
 
+.service-title{
+    text-align: center;
+}
+
 .service-desc{
     text-align: center;
+    display: none;
 }
 
 .service-img{
@@ -78,18 +83,22 @@
     margin-bottom: 1rem;
 }
 
+.tooltiptxt{
+    display:none;
+}
+
 
 /* Portfolio */
-
-.portfolion{
-    padding: 2rem;
-}
 
 .portfolio-img {
     margin-bottom: 32px;
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.row-style{
+    padding:0 6vw;
 }
 
 
@@ -100,10 +109,11 @@
     background-size: cover;
     height: 80vh;
     width: 100%;
+    display: block;
 }
 
 .contact-form{
-    padding: 4em 16vh;
+    padding: 4vw 16vh;
     background: transparent !important;
 }
 
@@ -115,7 +125,7 @@
 .form-control{
     background: transparent;
     color: white;
-    margin-top: 2em;
+    margin-top: 2vh;
 }
 
 ::placeholder{
