@@ -118,10 +118,11 @@
     padding:0 6vw;
 }
 
-.tooltip{
-    color:black !important;
-    background-color: white !important;
+.tooltip-inner{
+    background-color: white;
+    color: black;
 }
+
 
 /* Contact US */
 

@@ -1,9 +1,7 @@
 // JQuery functions
 $(document).ready(function(){
     // Hover over portfolio images to get a tooltip with the title
-    $("img.portfolio-img").tooltip({
-        tooltipClass: "tooltip"
-    })
+    $("img.portfolio-img").tooltip()
 
     //Selected form elements take the styling described in css classes
     $("input").focus(function(){
@@ -38,6 +36,8 @@ $(document).ready(function(){
         $('div#part-two').addClass("centered")
         console.log("part three loaded perfectly")
     })
+
+    //Function to hide paragraphs in services section of about us
     $("p.service-desc").click(function(){
         $("p.service-desc").hide()
     })
