@@ -20,7 +20,6 @@
 /* Center the items with image acting as background */
 .centered{
     position: absolute;
-    color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -69,11 +68,17 @@
 
 .service-title{
     text-align: center;
+    font-weight: bold;
 }
 
 .service-desc{
-    text-align: center;
     display: none;
+    text-align: center;
+}
+
+.service-desc-clicked{
+    text-align: center;
+    display: block;
 }
 
 .service-img{
@@ -83,12 +88,15 @@
     margin-bottom: 1rem;
 }
 
-.tooltip{
-    background-color: white !important;
-    color: black !important;
+/* Portfolio */
+
+.portfolio{
+    margin-top: 2rem;
 }
 
-/* Portfolio */
+.row-style{
+    margin-top: 2rem;
+}
 
 .portfolio-img {
     margin-bottom: 32px;
@@ -101,6 +109,10 @@
     padding:0 6vw;
 }
 
+.tooltip{
+    color:black !important;
+    background-color: white !important;
+}
 
 /* Contact US */
 
