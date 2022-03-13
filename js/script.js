@@ -11,32 +11,46 @@ $(document).ready(function(){
         $(this).addClass("form-control");
       });
 
-    // Click on image to display description while hideing the rest of the service icons
-    $("img#design").click(function(){
-        $('div#part-one').removeClass("centered")
-        $('p.service-desc').hide()
-        $('p#design-desc').show()
-        $('div#part-two').addClass("centered")
-        $('div#part-three').addClass("centered")
-        console.log("part one loaded perfectly")
-    })
-    $("img#development").click(function(){
-        $('div#part-two').removeClass("centered")
-        $('p.service-desc').hide()
-        $('p#dev-desc').show()
-        $('div#part-one').addClass("centered")
-        $('div#part-three').addClass("centered")
-        console.log("part two loaded perfectly")
-    })
-    $("img#prod-mngmt").click(function(){
-        $('div#part-three').removeClass("centered")
-        $('p.service-desc').hide()
-        $('p#prod-desc').show()
-        $('div#part-one').addClass("centered")
-        $('div#part-two').addClass("centered")
-        console.log("part three loaded perfectly")
-    })
-
+    // Click on image to display description while hiding the rest of the service icons
+    if (window.matchMedia('(max-width: 768px)').matches){
+        $("img#design").click(function(){
+            $('div#part-one').removeClass("centered")
+            $('p.service-desc').hide()
+            $('p#design-desc').show()
+        })
+        $("img#development").click(function(){
+            $('div#part-two').removeClass("centered")
+            $('p.service-desc').hide()
+            $('p#dev-desc').show()
+        })
+        $("img#prod-mngmt").click(function(){
+            $('div#part-three').removeClass("centered")
+            $('p.service-desc').hide()
+            $('p#prod-desc').show()
+        })
+    }else{
+        $("img#design").click(function(){
+            $('div#part-one').removeClass("centered")
+            $('p.service-desc').hide()
+            $('p#design-desc').show()
+            $('div#part-two').addClass("centered")
+            $('div#part-three').addClass("centered")
+        })
+        $("img#development").click(function(){
+            $('div#part-two').removeClass("centered")
+            $('p.service-desc').hide()
+            $('p#dev-desc').show()
+            $('div#part-one').addClass("centered")
+            $('div#part-three').addClass("centered")
+        })
+        $("img#prod-mngmt").click(function(){
+            $('div#part-three').removeClass("centered")
+            $('p.service-desc').hide()
+            $('p#prod-desc').show()
+            $('div#part-one').addClass("centered")
+            $('div#part-two').addClass("centered")
+        })
+    }
     //Function to hide paragraphs in services section of about us
     $("p.service-desc").click(function(){
         $("p.service-desc").hide()
