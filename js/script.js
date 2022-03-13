@@ -38,6 +38,9 @@ $(document).ready(function(){
         $('div#part-two').addClass("centered")
         console.log("part three loaded perfectly")
     })
+    $("p.service-desc").click(function(){
+        $("p.service-desc").hide()
+    })
 })
 
 
