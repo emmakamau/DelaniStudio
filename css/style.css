@@ -42,7 +42,6 @@ body{
 .about-us-part-two{
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
-    height: 50vh;
     width: 100%;
 }
 

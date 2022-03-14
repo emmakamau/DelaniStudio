@@ -71,3 +71,8 @@ function msgSubmitted(){
         alert(`Hello ${firstName}, thank you for reaching out to us. Your message has been received. Someone on the team will reach out to you soon.`)
     }
 }
+
+
+
+
+
