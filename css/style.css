@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /* Section one styling */
 .logo{
     display: block;
@@ -21,7 +25,6 @@
 .section-one{
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
-    height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -123,7 +126,6 @@
 .contact-us{
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
-    height: 80vh;
     width: 100%;
     display: block;
 }
