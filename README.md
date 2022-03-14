@@ -17,7 +17,7 @@ Emmaculate Kamau
 JavaScript console or JS fiddle
 
 ### Setup and instruction
-1. Clone the repository [here]().
+1. Clone the repository [here](https://github.com/emmakamau/DelaniStudio.git).
 2. Extract and open the folder.
 3. Run **index.html** from your prefered browser.
 
