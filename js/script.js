@@ -61,14 +61,14 @@ $(document).ready(function(){
 //Javascript functions
 
 function msgSubmitted(){
-    firstName = document.getElementById('first-name').value
-    lastName = document.getElementById('last-name').value
-    message = document.getElementById('text-area').value
-
-    if(firstName==='' && lastName==='' && message===''){
-        alert("Form fields cannot be empty!")
-    }else{
+    var firstName = document.getElementById('first-name').value
+    var lastName = document.getElementById('last-name').value
+    var message = document.getElementById('text-area').value
+    console.log(firstName)
+    if(firstName !=="" && lastName!=="" && message!==""){
         alert(`Hello ${firstName}, thank you for reaching out to us. Your message has been received. Someone on the team will reach out to you soon.`)
+    }else{
+        alert("Form fields cannot be empty!")
     }
 }
 
