@@ -134,11 +134,6 @@ body{
     background: transparent !important;
 }
 
-.form-control{
-    background: transparent !important;
-    color: white !important;
-}
-
 .btn-light{
     width: 50%;
     margin: 0 18vw;
@@ -151,8 +146,8 @@ body{
 }
 
 .form-control{
-    background: transparent;
-    color: white;
+    background: transparent !important;
+    color: white !important;
     margin-top: 2vh;
 }
 

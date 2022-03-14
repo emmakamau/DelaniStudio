@@ -62,11 +62,12 @@ $(document).ready(function(){
 
 function msgSubmitted(){
     var firstName = document.getElementById('first-name').value
-    var lastName = document.getElementById('last-name').value
+    var email = document.getElementById('email').value
     var message = document.getElementById('text-area').value
     console.log(firstName)
-    if(firstName !=="" && lastName!=="" && message!==""){
+    if(firstName !=="" && email!=="" && message!==""){
         alert(`Hello ${firstName}, thank you for reaching out to us. Your message has been received. Someone on the team will reach out to you soon.`)
+        document.querySelector("form").reset();
     }else{
         alert("Form fields cannot be empty!")
     }
